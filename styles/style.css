@@ -122,7 +122,10 @@ input{
 }
 
 .search-text{
-    margin: 0 .1em !important;
+    /* margin: 0 .1em !important; */
+    position: relative;
+    display: flex;
+    justify-content: center;
     /* margin-right: 2em !important; */
 }
 
@@ -131,4 +134,14 @@ input{
     color: white;
     background-color: #002f34;
     transition: .4s;
+}
+
+/* Section */
+section{
+    margin: 2em auto;
+    color: black;
+}
+
+section h2{
+    font-weight: bold;
 }
