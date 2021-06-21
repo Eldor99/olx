@@ -4,6 +4,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 nav{
     display: block;
     background: #002f34;
@@ -13,12 +15,13 @@ nav{
 
 .logo{
     font-size: 2.5em;
+    margin-left: 0.75em;
     color: #23e5db;
     font-weight: bold;
 }
 
 .container{
-    padding: 0.75em 8.5em;
+    padding: 0.35em 0em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,7 +34,7 @@ nav{
 
 .navbar-item{
     display: inline-block;
-    margin: 0 1em;
+    margin: 0 2em;
     /* padding: 0 0.5em; */
 }
 
@@ -55,4 +58,77 @@ strong{
 a{
     text-decoration: none;
     color: white;
+}
+
+.left-col{
+    position: relative;
+    top: 4px;
+}
+
+/* SearchBar */
+.search-bar{
+    background: #f7f7f7;
+    padding: 1.5em 2em ;
+    padding-left: 5.5em;
+}
+
+.search{
+    background-color: white;
+    padding: 1.25em;
+    width: 700px;
+    margin: 0em 0em;
+    /* margin: -.5em 0; */
+    text-align: left;
+    position: relative;
+    display: inline-block;
+}
+
+p{
+    margin: 0 !important;
+}
+
+input{
+    outline-color: white;
+    border: white;
+    width: 240px;
+    
+}
+
+.fas{
+    margin: 0 0.25em;
+    margin-right: 0.25em;
+    position: relative;
+    display: inline-block;
+    top: 4px;
+}
+
+.search-city{
+    display: inline-block;
+    /* padding: 1.25em; */
+    /* margin: 0em 2em; */
+    margin-left: 0em ;
+    width: 400px;
+    /* margin-left: 48em; */
+}
+
+.search-button{
+    cursor: pointer;
+    display: inline-block;
+    background-color: white;
+    padding: 1.25em 1.75em;
+    margin: 0;
+    /* position: relative; */
+    /* bottom: 4px; */
+}
+
+.search-text{
+    margin: 0 .1em !important;
+    /* margin-right: 2em !important; */
+}
+
+
+.search-button:hover{
+    color: white;
+    background-color: #002f34;
+    transition: .4s;
 }
