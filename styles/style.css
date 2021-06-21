@@ -68,13 +68,18 @@ a{
 /* SearchBar */
 .search-bar{
     background: #f7f7f7;
-    padding: 2em;
+    padding: 1.5em 2em ;
 }
 
 .search{
     background-color: white;
     padding: 1.25em;
-    width: 86%;
+    width: 750px;
+    margin: 0em 0em;
+    /* margin: -.5em 0; */
+    text-align: left;
+    position: relative;
+    display: inline-block;
 }
 
 p{
@@ -93,4 +98,13 @@ input{
     margin-right: 0.25em;
     position: relative;
     top: 4px;
+}
+
+.search-city{
+    display: inline-block;
+    /* padding: 1.25em; */
+    /* margin: 0em 2em; */
+    margin-left: 0em ;
+    width: 400px;
+    /* margin-left: 48em; */
 }
