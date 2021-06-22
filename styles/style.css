@@ -132,3 +132,11 @@ input{
     background-color: #002f34;
     transition: .4s;
 }
+
+section{
+    margin: 2.75em auto;
+}
+
+section h2{
+    font-weight: bold;
+}
