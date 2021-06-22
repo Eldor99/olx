@@ -149,13 +149,18 @@ img{
 }
 
 .items-list{
-    padding: 0 1.75em;
+    padding: 0 1em 1.75em;
+    display: flex;
 }
 
-.items-text{
+.item-text{
     font-weight: bold;
 }
 
 .item{
-    margin: 0 0.25em;
+    padding: 0 1.25em;
+}
+
+.second-row{
+    /* display: flex; */
 }
