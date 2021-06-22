@@ -140,3 +140,22 @@ section{
 section h2{
     font-weight: bold;
 }
+
+img{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 1.25em;
+}
+
+.items-list{
+    padding: 0 1.75em;
+}
+
+.items-text{
+    font-weight: bold;
+}
+
+.item{
+    margin: 0 0.25em;
+}
