@@ -8,8 +8,8 @@ body{
 
 nav{
     display: block;
+    width: 100vw;
     background: #002f34;
-    margin: 0;
     color: white;
 }
 
